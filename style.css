@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 10px;
+}
+.first {
+  background-color: white;
+  width: 400px;
+  height: 150px;
+  border: 10px solid #d91e2d;
+  box-shadow: 8px 8px #732672;
+  border-radius: 10px;
+  text-align: center;
+
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+}
+.fdiv {
+  display: flex;
+  border: 7px solid #37831e;
+  position: relative;
+  height: 600px;
+  width: 1400px;
+  margin: 10px;
+  padding: 30px;
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+}
+
+.common {
+  border: 10px solid red;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 8px #732672;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.third {
+  position: absolute;
+  left: 1130px;
+  right: 80;
+}
+
+.fourth {
+  position: absolute;
+  top: 350px;
+}
+.fifth {
+  position: absolute;
+  top: 350px;
+  left: 1130px;
+}
+
+.tdiv {
+  position: relative;
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  width: 680px;
+  border: 7px solid #701871;
+  background-color: #37831e;
+  margin: 20px;
+}
+.under-tdiv {
+  justify-content: space-between;
+  padding: 30px;
+  padding-right: 40px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fruit {
+  position: absolute;
+  width: 310px;
+  left: 0;
+}
+.vegetable {
+  position: absolute;
+  width: 310px;
+  left: 323px;
+}
+.com-fruit {
+  border: 2px solid gray;
+  background-color: #ece784;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.other {
+  position: absolute;
+
+  top: 380px;
+  background-color: #ece784;
+  border: 2px solid gray;
+  font-weight: bold;
+  width: 95%;
+  word-wrap: break-word;
+}
+.stickboard {
+  display: flex;
+  flex-direction: row;
+  word-wrap: break-word;
+  background-color: #a6ff43;
+  border: 4px solid #d91e2d;
+  width: 500px;
+  border-radius: 10px;
+
+  position: fixed;
+  bottom: 0;
+  left: 31%;
+  z-index: 100;
+}
